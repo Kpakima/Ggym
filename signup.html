@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaint Gym | Home</title>
+    <link rel="stylesheet" type="text/css" href="./components.css" />
+    <link rel="stylesheet" type="text/css" href="./global.css" />
+  </head>
+  <body>
+    <!-- The header -->
+
+    <div class="container">
+      <div class="header-container">
+        <a href="index.html">
+          <img class="logo" src="./Images/gym logo.png" alt="Gaint Gym" />
+        </a>
+
+        <nav>
+          <div class="nav-menu">
+            <img src="./Images/menu.svg" alt="Gaint Gym" />
+          </div>
+          <div class="bg-overlay"></div>
+          <ul class="nav-list">
+            <div class="nav-close">
+              <img src="./Images/x.svg" alt="" />
+            </div>
+
+            <div class="nav-list-container">
+              <li><a class="nav-link" href="index.html">Home</a></li>
+              <li><a class="nav-link" href="#offer">Offer</a></li>
+              <li><a class="nav-link" href="#about">About</a></li>
+              <li><a class="nav-link" href="#contact">Contact</a></li>
+              <li><a id="primary-btn" href="signup.html">Sign Up</a></li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- End The header -->
+
+    <!-- signup form -->
+    <div class="container">
+      <div class="section">
+        <div class="form-container">
+          <form action="practice.php" method="post">
+            <div class="firstname-container">
+              <input
+                type="text"
+                name="firstName"
+                required
+                placeholder="First Name"
+              />
+            </div>
+            <div class="lastname-container">
+              <input
+                type="text"
+                name="lastName"
+                required
+                placeholder="Last Name"
+              />
+            </div>
+            <div class="email-container">
+              <input
+                type="email"
+                name="useremail"
+                required
+                placeholder="Email"
+              />
+            </div>
+            <div class="password-container">
+              <input
+                type="password"
+                name="userpasword"
+                required
+                placeholder="Password"
+              />
+            </div>
+            <div class="info-container">
+              <p>
+                Already a member? <a href="#"><b>Log In</b></a>
+              </p>
+            </div>
+            <div class="signup-btn-container">
+              <input type="submit" name="signup-btn" value="Sign Up" />
+            </div>
+            <p>
+              If an error occurs when filling a form, a message will show here.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End signup form -->
+
+    <!-- Contact us -->
+    <div class="contact-bg">
+      <div class="container">
+        <div class="section">
+          <div id="contact" class="contact-container">
+            <h4>Call Us Today</h4>
+            <h1>+231-880-943-438</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis cupiditate a consequuntur est, error voluptas
+              accusantium minima esse earum! Alias?
+            </p>
+            <a href="" class="schedule-btn">Actual Schedule</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <p id="copyright">
+        copy&copy;23
+        <a href="mailto:samueljoykpakima@gmail.com"
+          >samueljoykpakima@gmail.com</a
+        >
+      </p>
+    </div>
+    <!-- End contact us -->
+    <script src="./script.js"></script>
+  </body>
+</html>
